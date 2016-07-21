@@ -34,10 +34,11 @@ List Images:
 Interactive container:
 - `docker run -i -t ubuntu:14.4 /bin/bash`
 
-    -i: wrap STDIN of the container
-    -t: allocates a pseudo-TTY or terminal and assign it to the container
+    - -i: wrap STDIN of the container
+    - -t: allocates a pseudo-TTY or terminal and assign it to the container
 
 - keys `Ctrl + Q` detach the TTY from the container
 
 List running containers:
 - `docker ps`
+- list all: `docker ps -a`
